@@ -1,9 +1,5 @@
 body {
-    /* background-color: #FAFBFF; */
-    color: #292D32;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    /* letter-spacing: 0.03em; */
+    font-family: "Poppins", system-ui;
 }
 
 ul {
@@ -34,8 +30,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
-    /* padding-left: 28px;
-    padding-right: 28px; */
 }
 
 .sidebar {
@@ -58,25 +52,53 @@ p {
 }
 
 .sidebar__link {
+    font-weight: 600;
     font-size: 26px;
+    letter-spacing: 0.01em;
     margin-bottom: 64px;
+    color: #000000;
 }
 
 .sidebar__nav {
     display: grid;
     row-gap: 18px;
-    color: #9197B3;
 }
 
 .sidebar__item {
     display: block;
     padding: 11px 14px;
     border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: #9197b3;
 }
 
 .sidebar__item:hover {
     color: #FFFFFF;
     background-color: #5932EA;
+}
+
+.user {
+    display: flex;
+}
+
+.user__desc {
+    margin-left: 12px;
+}
+
+.user__name {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #000;
+}
+
+.user__position {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #757575;
 }
 
 main {
