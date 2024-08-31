@@ -27,9 +27,9 @@ p {
 
 .container {
     display: flex;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
 }
 
 .sidebar {
@@ -51,12 +51,25 @@ p {
     flex-direction: column;
 }
 
-.sidebar__link {
+.sidebar__logo {
+    display: inline-block;
     font-weight: 600;
     font-size: 26px;
     letter-spacing: 0.01em;
     margin-bottom: 64px;
     color: #000000;
+    outline: 1px solid red;
+}
+
+.sidebar__logo--version {
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: -0.01em;
+    color: #838383;
+}
+
+.sidebar__icon {
+    vertical-align: middle;
 }
 
 .sidebar__nav {
@@ -65,13 +78,11 @@ p {
 }
 
 .sidebar__item {
-    display: block;
-    padding: 11px 14px;
-    border-radius: 8px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.01em;
     color: #9197b3;
+    border-radius: 8px;
 }
 
 .sidebar__item:hover {
@@ -79,8 +90,19 @@ p {
     background-color: #5932EA;
 }
 
+.sidebar__link {
+    display: inline-block;
+    width: 100%;
+    padding: 11px 14px;
+}
+
 .user {
     display: flex;
+    outline: 1px solid red;
+}
+
+.user__photo {
+    
 }
 
 .user__desc {
